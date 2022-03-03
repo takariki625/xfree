@@ -1,0 +1,9 @@
+<?php 
+require("todo.php");
+require("database.php");
+//local
+define("pdo","mysql:dbname=todolist;host=localhost");
+define("user","root");
+define("pw","");
+//xfree
+?>

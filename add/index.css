@@ -1,0 +1,45 @@
+main{
+  width:360px;
+  height:480px;
+  margin:32px auto;
+}
+header{
+  text-align: center;
+}
+header div{
+  display:flex;
+}
+#purge{
+  margin-left: auto;
+  font-size:18px;
+  opacity: 0.5;
+}
+
+input[type="text"]{
+  width:100%;
+}
+ul{
+  list-style:none;
+  padding:0;
+}
+li{
+  display:flex;
+  margin-top:10px;
+}
+li .delete{
+  margin-left:auto;
+  opacity:0.5;
+}
+li .delete:hover , #purge:hover{
+  opacity: 1;
+  font-weight: bold;
+  cursor:default;
+}
+input[type="checkbox"]{
+  display:none;
+}
+input[type="checkbox"]:checked+span{
+  text-decoration: line-through;
+  opacity:0.5;
+}
+
